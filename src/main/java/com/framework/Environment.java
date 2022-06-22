@@ -12,5 +12,9 @@ public class Environment {
 	{
 		return PropertiesUtil.getEnvironment("qa.url");
 	}
+	public static String getPOUrl() throws IOException
+	{
+		return PropertiesUtil.getEnvironment("po.url");
+	}
 }
 
